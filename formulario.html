@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>formulario</title>
+</head>
+<body style="background-color: rgb(255, 221, 227);">
+
+    <h2>Atividade de formulário</h2>
+    <form action="mailto:seuemail@gmail.com" method="post">
+        <h3>Formulário 1</h3>
+        Nome:
+        <input type="text" name="nm" size="10" maxlength="40" placeholder="digite o nome"><br>
+        <label>Sexo:</label>
+        <input type="radio" name="sexo" value="feminino">
+        Feminino 
+        <input type="radio" name="sexo" value="masculino">
+        Masculino <br>
+
+        Escolaridade:
+        <select name="nivelescoaridade">
+            <option>escolha</option>
+            <option>ensino fundamental</option>
+            <option>ensino medio</option>
+            <option>nivel superior</option>
+        </select> <br>
+
+        <h3>Botões de Rádio</h3>
+        <input type="radio" name="botoes" value="direcao">
+            Direção <br>
+        <input type="radio" name="botoes" value="tapetes">
+            Tapetes <br>
+        <input type="radio" name="botoes" value="frisos">
+            Frisos <br>
+        <input type="radio" name="botoes" value="rodas">
+            Rodas de Liga-leve <br>
+
+        <h3>área do texto</h3>
+        <textarea name="comentario"  cols="20" rows="5">
+        digite seu comentário aqui
+        </textarea>
+
+        <p>Caixa de seleção - Lista</p>
+        <select multiple name="estado" size="3">
+            <option value="df">DF</option>
+            <option value="sp">SP</option>
+            <option value="go">GO</option>
+        </select> <br> <br>
+
+
+        <input type="submit" value="enviar"> <br>
+        <input type="reset" value="limpar">
+    </form>
+
+    <h3>Fontes:</h3>
+    <p style="color: green;">No mundo dos negocios todos sao pagos com duas moedas: <br>
+       dinheiro e experiencia. Agarre a experiencia primeiro, <br>
+       o dinheiro vira depois -- Harold Geneen
+    </p>
+
+    <h2 style="color: red;">Ha homens que lutam um dia e sao bons. <br>
+        Ha outros que lutam muitos dias e sao <br>
+        melhores</h2>
+    <h2 style="color: blue;">Mas ha os que lutam toda a vida, e estes <br>
+        sao imprescindiveis <br>
+        --Bertold Brecht
+    </h2> <br>
+
+    <h2>Programador WEB</h2>
+    <p style="color: purple;">HTML (linguagem de marcação de HiperTexto) é o bloco de cinstrução mais básico da web</p>
+
+    <h2 style="color: red">Formatação</h2>
+    <hr>
+    <ol>
+        <li>C</li>
+        <li>JAVA</li>
+        <li>Python</li>
+    </ol>
+
+    <ol type="A">
+        <li>C</li>
+        <li>JAVA</li>
+        <li>Python</li>
+    </ol>
+
+    <ol type="a">
+        <li>C</li>
+        <li>JAVA</li>
+        <li>Python</li>
+    </ol>
+
+    <ol type="I">
+        <li>C</li>
+        <li>JAVA</li>
+        <li>Python</li>
+    </ol>
+
+    <img src="cachorro.jpg" alt="cachorro" height="250" width="280">
+</body>
+</html>
